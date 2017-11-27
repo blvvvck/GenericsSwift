@@ -12,6 +12,11 @@
 		7C9007EC1FCC3E04005D72FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9007EA1FCC3E04005D72FD /* Main.storyboard */; };
 		7C9007EE1FCC3E04005D72FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C9007ED1FCC3E04005D72FD /* Assets.xcassets */; };
 		7C9007F11FCC3E04005D72FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9007EF1FCC3E04005D72FD /* LaunchScreen.storyboard */; };
+		7C9007F91FCC3E5A005D72FD /* CostProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9007F81FCC3E5A005D72FD /* CostProtocol.swift */; };
+		7C9007FB1FCC3E7A005D72FD /* Potato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9007FA1FCC3E7A005D72FD /* Potato.swift */; };
+		7C9007FD1FCC3F34005D72FD /* Tomato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9007FC1FCC3F34005D72FD /* Tomato.swift */; };
+		7C9008001FCC3FF6005D72FD /* HasCostProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9007FF1FCC3FF6005D72FD /* HasCostProtocol.swift */; };
+		7C9008021FCC4488005D72FD /* ListOfObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9008011FCC4488005D72FD /* ListOfObjects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		7C9007ED1FCC3E04005D72FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C9007F01FCC3E04005D72FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C9007F21FCC3E04005D72FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C9007F81FCC3E5A005D72FD /* CostProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostProtocol.swift; sourceTree = "<group>"; };
+		7C9007FA1FCC3E7A005D72FD /* Potato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potato.swift; sourceTree = "<group>"; };
+		7C9007FC1FCC3F34005D72FD /* Tomato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tomato.swift; sourceTree = "<group>"; };
+		7C9007FF1FCC3FF6005D72FD /* HasCostProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasCostProtocol.swift; sourceTree = "<group>"; };
+		7C9008011FCC4488005D72FD /* ListOfObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfObjects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +66,25 @@
 			children = (
 				7C9007E61FCC3E04005D72FD /* AppDelegate.swift */,
 				7C9007E81FCC3E04005D72FD /* ViewController.swift */,
+				7C9007FE1FCC3FDA005D72FD /* Models */,
+				7C9007F81FCC3E5A005D72FD /* CostProtocol.swift */,
 				7C9007EA1FCC3E04005D72FD /* Main.storyboard */,
 				7C9007ED1FCC3E04005D72FD /* Assets.xcassets */,
 				7C9007EF1FCC3E04005D72FD /* LaunchScreen.storyboard */,
 				7C9007F21FCC3E04005D72FD /* Info.plist */,
 			);
 			path = GenericsSwift;
+			sourceTree = "<group>";
+		};
+		7C9007FE1FCC3FDA005D72FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7C9007FA1FCC3E7A005D72FD /* Potato.swift */,
+				7C9007FC1FCC3F34005D72FD /* Tomato.swift */,
+				7C9007FF1FCC3FF6005D72FD /* HasCostProtocol.swift */,
+				7C9008011FCC4488005D72FD /* ListOfObjects.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9007F91FCC3E5A005D72FD /* CostProtocol.swift in Sources */,
+				7C9007FD1FCC3F34005D72FD /* Tomato.swift in Sources */,
 				7C9007E91FCC3E04005D72FD /* ViewController.swift in Sources */,
+				7C9008021FCC4488005D72FD /* ListOfObjects.swift in Sources */,
+				7C9008001FCC3FF6005D72FD /* HasCostProtocol.swift in Sources */,
+				7C9007FB1FCC3E7A005D72FD /* Potato.swift in Sources */,
 				7C9007E71FCC3E04005D72FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
